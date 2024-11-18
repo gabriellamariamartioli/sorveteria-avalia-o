@@ -1,0 +1,62 @@
+:root{
+
+    --fonte-principal:"Peddana";
+    }
+    
+    
+    
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+    }
+    
+    .peddana-regular {
+        font-family: "Peddana", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    
+    header {
+        background: #e921a6;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    h1, h2 {
+        margin: 0;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    section {
+        background: #fcb9e5;
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(204, 2, 2, 0.1);
+    }
+    
+    footer {
+        text-align: start;
+        padding: 10px 0;
+        background: #e92888;
+        color: #ffffff;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .titulo-site{font-family: var(--fonte-principal);}
+
+
+    .sorvete{
+     display: flexbox ;
+    }
